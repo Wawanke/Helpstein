@@ -41,17 +41,22 @@ def home():
 def predict():
     statut = request.form.get("statut", "solo")
     enfants = request.form.get("enfants", "0")
-    if enfants == "5":
-        enfants = 5  # On considère "5 et +" comme 5 enfants
-    else:
-        enfants = int(enfants)
+    revenu_str = request.form.get("revenu", "1426").strip()
 
-    if request.form.get("revenu", "1426,30").strip() == "" :
-        return render_template('problem.html')
-    revenu_str = request.form.get("revenu", "1426,30").strip()
-    revenu = 1426,30  # Valeur par défaut
-    if revenu_str.isdigit():
-        revenu = max(int(revenu_str), 1426,30)
+    # Validation des entrées
+    if statut not in ["solo", "couple"]:
+        return render_template('problem.html', message="Statut invalide.")
+
+    if not enfants.isdigit() or int(enfants) < 0 or int(enfants) > 5:
+        return render_template('problem.html', message="Nombre d'enfants invalide.")
+    enfants = min(int(enfants), 5)  # On limite à 5 enfants
+
+    try:
+        revenu = float(revenu_str.replace(",", "."))
+        if revenu < 1426:
+            return render_template('problem.html', message="Revenu trop bas ou invalide.")
+    except ValueError:
+        return render_template('problem.html', message="Veuillez entrer un revenu valide.")
 
     # Ajustement du revenu en fonction du statut marital
     if statut == "couple":
