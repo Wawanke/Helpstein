@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultat - Helpstein</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 40px;
+        }
+        table {
+            margin: auto;
+            width: 80%;
+            border-collapse: collapse;
+            background: #1e1e1e;
+            color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #6200ea;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #2a2a2a;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #6200ea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        a:hover {
+            background: #3700b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Résultat de votre recherche</h1>
+    <p>Voici les <strong>10 villes</strong> qui correspondent le mieux à vos critères :</p>
+
+    <table>
+        <tr>
+            <th>Ville</th>
+            <th>Coût de la Vie (€)</th>
+            <th>Qualité de Vie</th>
+            <th>Sécurité</th>
+            <th>Infrastructures</th>
+            <th>Description</th>
+        </tr>
+        {% for ville in villes %}
+        <tr>
+            <td>{{ ville["Ville"] }}</td>
+            <td>{{ ville["Coût de la Vie (€)"] }}</td>
+            <td>{{ ville["Qualité de Vie"] }}</td>
+            <td>{{ ville["Sécurité"] }}</td>
+            <td>{{ ville["Infrastructures"] }}</td>
+            <td>{{ ville["Description"] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <br>
+    <a href="/">Retour à l'accueil</a>
+
+</body>
+</html>

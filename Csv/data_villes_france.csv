@@ -1,0 +1,101 @@
+Ville,Coût de la Vie (€),Qualité de Vie (Score),Sécurité (Score),Infrastructures (Score),Description
+Paris,2400,8.4,66,66,"Paris : Capitale française, centre économique et culturel majeur."
+Marseille,1761,8.2,49,59,"Marseille : Ville portuaire ensoleillée, connue pour son vieux port et ses calanques."
+Lyon,1919,6.6,46,83,Lyon : Ville dynamique avec un fort héritage historique et gastronomique.
+Toulouse,1919,6.8,75,94,"Toulouse : Pôle aéronautique et spatial, ville étudiante avec un bon cadre de vie."
+Nice,2891,6.8,80,78,"Nice : Station balnéaire prisée, avec un climat agréable toute l’année."
+Nantes,2436,7.7,51,66,"Nantes : Ville portuaire et culturelle, reconnue pour son cadre de vie agréable."
+Strasbourg,2270,7.4,58,93,"Strasbourg : Ville frontalière avec l'Allemagne, mélange de culture et de tradition."
+Montpellier,1840,6.9,82,54,"Montpellier : Ville universitaire en pleine croissance, dynamique et ensoleillée."
+Bordeaux,2351,7.4,70,62,"Bordeaux : Ville viticole et culturelle, réputée pour son cadre de vie."
+Lille,2445,7.9,59,88,"Lille : Ville au passé industriel, en pleine transformation économique."
+Rennes,2195,7.4,58,50,Rennes : Ville médiévale réputée pour son cadre de vie paisible.
+Reims,1928,7.7,80,92,"Reims : Ville du champagne, dynamique économiquement."
+Le Havre,1950,8.7,84,78,Le Havre : Ville portuaire avec une grande histoire maritime.
+Saint-Étienne,1700,8.3,84,74,Saint-Étienne : Ville industrielle en reconversion avec un fort potentiel économique.
+Toulon,1661,8.0,73,84,Toulon : Ville portuaire méditerranéenne avec un climat doux.
+Angers,1431,7.4,57,54,"Angers : Ville étudiante et dynamique, appréciée pour son cadre de vie."
+Grenoble,1569,7.6,83,83,"Grenoble : Ville de montagne, dynamique et innovante."
+Dijon,1836,8.0,49,75,"Dijon : Capitale de la Bourgogne, ville gastronomique."
+Nîmes,1341,8.7,62,78,"Nîmes : Ville historique, ensoleillée et attractive pour les familles."
+Aix-en-Provence,2636,8.3,67,70,Aix-en-Provence : Ville ensoleillée et touristique avec un cadre de vie agréable.
+Saint-Quentin,1300,7.5,70,76,Saint-Quentin : Ville de Saint-Quentin connue pour son attractivité et son cadre de vie.
+Brest,1601,8.6,71,89,Brest : Ville portuaire tournée vers la mer et la navigation.
+Le Mans,1361,7.1,80,65,"Le Mans : Ville au passé médiéval, reconnue pour son patrimoine."
+Amiens,1511,8.6,63,63,"Amiens : Ville dynamique et culturelle, avec un patrimoine historique riche."
+Tours,1350,9.0,70,89,"Tours : Ville universitaire, dynamique et chargée d’histoire."
+Limoges,1711,6.9,80,77,Limoges : Ville connue pour sa porcelaine et son savoir-faire artisanal.
+Clermont-Ferrand,1561,8.4,52,88,"Clermont-Ferrand : Ville universitaire et technologique, proche de la nature."
+Villeurbanne,1761,6.7,66,91,"Villeurbanne : Ville en pleine expansion, bien connectée à Lyon."
+Metz,1411,7.2,70,91,"Metz : Ville industrielle en mutation, avec une offre culturelle variée."
+Besançon,1678,8.6,45,86,Besançon : Ville au fort patrimoine historique et culturel.
+Orléans,1861,6.5,53,93,"Orléans : Ville universitaire, bien située entre Paris et le sud de la France."
+Mulhouse,1941,8.2,83,59,"Mulhouse : Ville industrielle et culturelle, avec une forte identité alsacienne."
+Rouen,1756,6.7,45,92,"Rouen : Ville portuaire et historique, un pôle normand dynamique."
+Perpignan,1645,6.9,65,59,Perpignan : Ville méditerranéenne avec une forte identité locale.
+Caen,1431,7.8,77,54,"Caen : Ville universitaire et historique, en pleine expansion."
+Nancy,1761,7.2,77,59,"Nancy : Ville universitaire et administrative, riche en patrimoine."
+Saint-Denis,1867,8.1,52,62,"Saint-Denis : Ville dynamique de la banlieue parisienne, en pleine croissance."
+Argenteuil,1431,6.9,80,58,Argenteuil : Ville de Argenteuil connue pour son attractivité et son cadre de vie.
+Roubaix,1431,7.1,59,58,Roubaix : Ville de Roubaix connue pour son attractivité et son cadre de vie.
+Tourcoing,1134,8.6,79,68,Tourcoing : Ville de Tourcoing connue pour son attractivité et son cadre de vie.
+Montreuil,1581,6.8,83,86,Montreuil : Ville en forte croissance avec un bon développement économique.
+Avignon,1361,7.2,82,81,"Avignon : Ville médiévale et touristique, avec un patrimoine bien préservé."
+Nanterre,1561,6.6,72,91,"Nanterre : Ville universitaire, dynamique et bien connectée à Paris."
+Vitry-sur-Seine,1173,8.2,65,90,Vitry-sur-Seine : Ville résidentielle et industrielle en banlieue parisienne.
+Créteil,1561,7.3,62,78,Créteil : Ville résidentielle et dynamique en Île-de-France.
+Poitiers,1791,7.4,45,66,"Poitiers : Ville de culture et d’histoire, au patrimoine impressionnant."
+Courbevoie,1761,6.6,72,78,"Courbevoie : Ville proche de La Défense, dynamique et moderne."
+Versailles,1521,6.5,60,86,"Versailles : Ville royale, célèbre pour son château et ses jardins somptueux."
+Colombes,2349,7.0,56,81,"Colombes : Ville en pleine expansion, avec un fort dynamisme économique."
+Asnières-sur-Seine,1461,8.2,53,93,Asnières-sur-Seine : Ville résidentielle attractive avec de nombreux espaces verts.
+Aulnay-sous-Bois,1881,7.2,51,51,Aulnay-sous-Bois : Ville de Aulnay-sous-Bois connue pour son attractivité et son cadre de vie.
+Rueil-Malmaison,1761,7.5,54,75,"Rueil-Malmaison : Ville historique, ancienne résidence de Napoléon Bonaparte."
+Pau,561,6.9,83,69,"Pau : Ville agréable au pied des Pyrénées, connue pour sa qualité de vie."
+Aubervilliers,2919,7.5,80,59,"Aubervilliers : Ville en pleine mutation, bien connectée à Paris."
+Champigny-sur-Marne,1794,7.3,83,58,"Champigny-sur-Marne : Ville dynamique de la banlieue parisienne, en plein essor."
+Antibes,2700,6.6,60,68,"Antibes : Ville côtière prisée, avec de superbes plages et un riche patrimoine."
+Saint-Maur-des-Fossés,2919,8.2,79,80,Saint-Maur-des-Fossés : Ville résidentielle avec un cadre de vie très agréable.
+Calais,2137,6.8,84,79,"Calais : Ville portuaire stratégique, porte d’entrée vers l’Angleterre."
+Béziers,1524,6.6,62,60,"Béziers : Ville du sud, connue pour son patrimoine historique et ses fêtes."
+Boulogne-Billancourt,2375,8.8,63,69,Boulogne-Billancourt : Ville de Boulogne-Billancourt connue pour son attractivité et son cadre de vie.
+La Rochelle,2217,6.5,48,58,"La Rochelle : Ville portuaire et touristique, avec un cadre de vie exceptionnel."
+Saint-Nazaire,1360,8.9,72,74,Saint-Nazaire : Ville portuaire et industrielle tournée vers l’Atlantique.
+Cannes,2275,8.0,52,74,"Cannes : Ville du cinéma et du luxe, connue pour son festival international."
+Colmar,1560,8.9,45,72,Colmar : Ville de Colmar connue pour son attractivité et son cadre de vie.
+Drancy,1770,7.3,64,67,Drancy : Ville résidentielle et dynamique de la Seine-Saint-Denis.
+Mérignac,1560,6.7,57,87,"Mérignac : Ville en pleine expansion économique, proche de Bordeaux."
+Ajaccio,2250,7.6,63,73,"Ajaccio : Ville méditerranéenne, berceau de Napoléon Bonaparte."
+Issy-les-Moulineaux,2400,6.6,60,64,"Issy-les-Moulineaux : Ville innovante et connectée, un hub technologique majeur."
+Levallois-Perret,2400,7.9,54,53,Levallois-Perret : Ville dynamique et attractive de la petite couronne parisienne.
+Noisy-le-Grand,1570,7.9,68,74,"Noisy-le-Grand : Ville en plein essor, bénéficiant d’une bonne accessibilité."
+Quimper,1330,7.9,59,87,Quimper : Ville bretonne au riche patrimoine et aux traditions préservées.
+Vénissieux,1716,7.8,55,72,"Vénissieux : Ville en pleine expansion, bien intégrée à l’agglomération lyonnaise."
+Cergy,2060,7.2,55,82,"Cergy : Ville universitaire et en développement, proche de Paris."
+Pessac,1525,7.8,59,65,Pessac : Ville de Pessac connue pour son attractivité et son cadre de vie.
+Valence,1500,7.2,66,77,"Valence : Ville dynamique de la vallée du Rhône, appréciée pour son cadre."
+Bourges,1850,8.3,60,71,"Bourges : Ville d’art et d’histoire, au patrimoine préservé."
+Ivry-sur-Seine,1900,8.6,80,83,Ivry-sur-Seine : Ville dynamique et bien située aux portes de Paris.
+Troyes,1800,7.3,52,63,"Troyes : Ville médiévale, réputée pour ses magasins d’usine et son architecture."
+Neuilly-sur-Seine,2000,7.7,46,53,Neuilly-sur-Seine : Ville chic et bourgeoise aux portes de Paris.
+Antony,2600,8.5,51,91,Antony : Ville de Antony connue pour son attractivité et son cadre de vie.
+Sarcelles,1400,7.0,58,70,Sarcelles : Ville de Sarcelles connue pour son attractivité et son cadre de vie.
+Niort,900,7.7,61,94,"Niort : Ville du Poitou, connue pour son secteur des assurances."
+Chambéry,1800,7.7,56,78,"Chambéry : Ville alpine, entre lacs et montagnes, cadre idéal pour la nature."
+Montauban,1200,6.6,47,62,"Montauban : Ville ensoleillée du sud-ouest, avec un centre historique charmant."
+Pantin,1700,8.2,70,79,Pantin : Ville de Pantin connue pour son attractivité et son cadre de vie.
+Bondy,1340,7.9,58,51,Bondy : Ville de la banlieue parisienne en pleine transformation.
+Fréjus,930,7.0,48,54,Fréjus : Ville méditerranéenne avec un patrimoine romain exceptionnel.
+Clamart,1490,6.7,77,86,"Clamart : Ville résidentielle proche de Paris, avec un bon cadre de vie."
+Cholet,1230,7.6,48,76,"Cholet : Ville industrielle et commerçante, dynamique économiquement."
+Vannes,990,8.7,76,61,Vannes : Ville de Vannes connue pour son attractivité et son cadre de vie.
+Saint-Quentin,1300,8.0,56,51,Saint-Quentin : Ville de Saint-Quentin connue pour son attractivité et son cadre de vie.
+Albi,930,8.5,66,92,Albi : Ville de Albi connue pour son attractivité et son cadre de vie.
+La Seyne-sur-Mer,1050,6.7,56,69,"La Seyne-sur-Mer : Ville côtière de Provence, appréciée pour son cadre de vie."
+Chelles,1490,8.7,65,75,"Chelles : Ville résidentielle de l’est parisien, en forte croissance."
+Mâcon,990,7.9,60,88,Mâcon : Ville de Mâcon connue pour son attractivité et son cadre de vie.
+Évreux,960,8.5,69,62,Évreux : Ville de Évreux connue pour son attractivité et son cadre de vie.
+Annecy,1800 ,7.7,47,53,"Annecy : Ville surnommée la Venise des Alpes, cadre idyllique et attractif."
+Lorient,1500,8.0,76,94,"Lorient : Ville portuaire de Bretagne, avec un riche passé maritime."
+Châteauroux,870,8.1,64,57,Châteauroux : Ville de Châteauroux connue pour son attractivité et son cadre de vie.
+Meaux,1086,8.2,59,55,"Meaux : Ville de la Brie, connue pour son fromage et sa cathédrale."

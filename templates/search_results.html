@@ -1,0 +1,55 @@
+<!-- search_results.html - Affichage des résultats du moteur de recherche -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Résultats de recherche</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 40px;
+        }
+        h1 {
+            color: #ffffff;
+        }
+        h3 {
+            color: #6200ea;
+            margin-top: 20px;
+        }
+        p {
+            background: #1e1e1e;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            max-width: 80%;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #6200ea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        a:hover {
+            background: #3700b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Résultats de votre recherche</h1>
+    {% for result in results %}
+        <h3>{{ result.ville }}</h3>
+        <p>{{ result.description }}</p>
+        <p>Score de pertinence : {{ result.score }}</p>
+    {% endfor %}
+    <br>
+    <a href="/">Revenir à l'accueil</a>
+</body>
+</html>
